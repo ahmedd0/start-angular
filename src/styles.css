@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+  --mainColor: #1abc9c;
+  --secondColor: #2c3e50
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.star-icon .line {
+  height: 4px;
+  width: 100px;
+  background-color: white;
+}
+
+.active-link {
+  background-color: var(--mainColor);
+  border-radius: 7px;
+}

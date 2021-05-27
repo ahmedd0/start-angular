@@ -1,0 +1,36 @@
+footer{
+  line-height: 30px;
+}
+footer .upper-footer {
+  background-color: var(--secondColor);
+}
+
+footer .upper-footer .socialmedia a {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+footer .upper-footer .socialmedia a:hover {
+  background-color: white;
+}
+
+footer .upper-footer .socialmedia a:hover i {
+  color: var(--secondColor);
+}
+
+footer .upper-footer .socialmedia a i {
+  font-size: 20px;
+}
+footer .lower-footer{
+  background-color: #1a252f;
+}

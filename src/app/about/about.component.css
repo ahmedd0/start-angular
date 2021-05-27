@@ -1,0 +1,19 @@
+.about {
+  background-color: var(--mainColor);
+  height: 700px;
+
+}
+
+.about h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.about .content{
+  height: 100%;
+}
+.about .content p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
